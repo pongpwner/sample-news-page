@@ -1,0 +1,96 @@
+*{
+    box-sizing:border-box;
+}
+
+/* header/////////////////////////////////////////////////////////////////////////////////////////*/
+.pageHeaderContainer{
+    
+display: flex;
+justify-content: center;
+
+
+
+
+}
+.pageHeader{
+    font-size: 5em;
+    position: absolute;
+    top:0;
+    font-style: italic;
+    
+}
+
+/*main /////////////////////////////////////////////////////////////////////////////////////*/
+h1{
+    font-style: italic;
+}
+
+.articleRow1{
+    margin-top:92px;
+    display: flex;
+   
+    border: 2px solid;
+}
+.article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 8px 0px 8px;
+}
+
+
+.article2{
+    border-right: 1px solid;
+    border-left: 1px solid;
+    padding:0px 8px 0px 8px;
+    width:250%;
+}
+.articleRow2{
+    display:flex;
+    border:2px solid;
+    border-top:0px solid;
+}
+
+
+
+.categoryNavBar{
+    width:300%;
+    height:200%;
+    border-left: 1px solid;
+}
+.categoryNavBarContainer{
+    display:flex;
+    flex-direction:column;
+    padding:0;
+    margin:0px;
+    
+    
+}
+
+.categoryNavBarContainer li{
+    list-style-type: none;
+    
+}
+
+.category{
+    height:42px;
+    padding-left:4%;
+    font-weight: bold;
+    font-size:2em;
+
+}
+.category:nth-child(1){
+    background-color:  yellow;
+}
+.category:nth-child(2){
+    background-color:  lightblue;
+}
+.category:nth-child(3){
+    background-color:  green;
+}
+.category:nth-child(4){
+    background-color:  blue;
+}
+.category:nth-child(5){
+    background-color:  purple;
+}
